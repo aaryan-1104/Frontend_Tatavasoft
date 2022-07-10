@@ -58,9 +58,9 @@ const SignUp = () => {
     ) {
       navigate("/bookListing");
     }
-    setTimeout(() => {
+    // setTimeout(() => {
       setLoading(false);
-    }, 1000);
+    // }, 1000);
   });
 
   return (
